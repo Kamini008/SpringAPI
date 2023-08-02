@@ -24,6 +24,13 @@ public class Person {
     @Range(min = 1,max = 110)
     private Integer age;
 
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     public String getFirstName() {
         return firstName;
@@ -76,11 +83,4 @@ public class Person {
                 '}';
     }
 
-    //    public String toString() {
-//        return "Person{" +
-//                "firstName='" + firstName + '\'' +
-//                ", lastName='" + lastName + '\'' +
-//                ", age=" + age +
-//                '}';
-//    }
 }

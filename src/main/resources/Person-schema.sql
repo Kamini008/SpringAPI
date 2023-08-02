@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS `person` CASCADE;
+CREATE TABLE `person` (
+    `id` INTEGER PRIMARY KEY AUTO_INCREMENT,
+    `age` INTEGER,
+    `First_Name` VARCHAR(10),
+    `Last_Name` VARCHAR(10)
+);
